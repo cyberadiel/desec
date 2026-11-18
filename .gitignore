@@ -1,0 +1,58 @@
+# Dados e saídas locais
+**/dados/
+**/resultados/
+**/evidencias/
+*.log
+*.pcap
+*.pcapng
+*.cap
+
+# Materiais compactados, imagens e máquinas virtuais
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.bz2
+*.xz
+*.iso
+*.ova
+*.ovf
+*.vmdk
+*.vdi
+*.qcow2
+*.vhd
+*.vhdx
+
+# Credenciais e configurações privadas
+.env
+.env.*
+!.env.example
+**/secrets/
+credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.ovpn
+
+# Python e ambientes virtuais
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Arquivos temporários e configurações locais de editores
+*.tmp
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
